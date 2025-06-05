@@ -1,0 +1,45 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="P-rPc5hw9Xf5TrDtTLGO">
+    <mxGraphModel dx="1426" dy="995" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c5vHyXlPEnk_FPjZwAOA-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="3zMLrpfHmI3m4r8VN9oY-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="186" y="395.33333333333326" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5vHyXlPEnk_FPjZwAOA-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="3zMLrpfHmI3m4r8VN9oY-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="186" y="395.33333333333326" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5vHyXlPEnk_FPjZwAOA-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="3zMLrpfHmI3m4r8VN9oY-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="186" y="395.33333333333326" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5vHyXlPEnk_FPjZwAOA-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="c5vHyXlPEnk_FPjZwAOA-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="186" y="395.33333333333326" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3zMLrpfHmI3m4r8VN9oY-10" value="Ajouter des raports d&#39;autopsie" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="304" y="281" width="232" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="3zMLrpfHmI3m4r8VN9oY-12" value="Consulter les raports d&#39;autopsie&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="365" width="232" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="3zMLrpfHmI3m4r8VN9oY-14" value="Modifier les rapports d&#39;autopsie" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="297" y="456" width="232" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="c5vHyXlPEnk_FPjZwAOA-5" value="Uploader un rapport d&#39;autopsie" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="297" y="553" width="232" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="Y807N0n14FnMw0NUa4ep-2" value="users" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="99" y="359" width="71" height="109" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

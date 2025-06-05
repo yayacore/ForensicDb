@@ -2,8 +2,6 @@
 
 Synopsis – Projet de fin de formation : Bibliothèque interactive de cas médico-légaux
 
-Titre : CaseForensics
-
 Description générale :
 CaseForensics est une application web interactive permettant de consulter des cas médico-légaux fictifs ou historiques à des fins éducatives. Le site propose une liste de cas classés par type (accident, homicide, suicide, etc.), chacun accompagné d’un résumé, d’illustrations schématiques et d’explications scientifiques adaptées à un public étudiant ou curieux. L’objectif est de sensibiliser et d’informer sur les méthodes médico-légales utilisées pour résoudre des enquêtes. Un espace administrateur sécurisé par JWT permet de gérer les cas : ajout, modification et suppression.
 
