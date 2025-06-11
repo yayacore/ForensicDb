@@ -1,0 +1,25 @@
+{
+  "name": "forensicdatabase",
+  "version": "1.0.0",
+  "description": "Synopsis – Projet de fin de formation : Bibliothèque interactive de cas médico-légaux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yayacore/ForensicDataBase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yayacore/ForensicDataBase/issues"
+  },
+  "homepage": "https://github.com/yayacore/ForensicDataBase#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mariadb": "^3.4.2",
+    "mysql2": "^3.14.1"
+  }
+}

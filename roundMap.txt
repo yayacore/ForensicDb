@@ -1,0 +1,105 @@
+//Cahier des charges 
+
+
+
+Objectifs
+
+Permettre aux utilisateurs autorisés de se connecter à l’application.
+
+Gérer les dossiers d’autopsies (création, consultation, mise à jour, suppression).
+
+Associer à chaque autopsie une ou plusieurs blessures.
+
+Classer les blessures par catégorie (fracture, brûlure, lésion interne, etc.).
+
+Faciliter la recherche d’informations et la consultation de données.
+
+3. Fonctionnalités attendues
+3.1 Gestion des utilisateurs
+Authentification sécurisée (hash du mot de passe).
+
+Création de comptes administrateurs.
+
+Gestion des sessions (connexion/déconnexion).
+
+3.2 Gestion des autopsies
+Création d’un dossier d’autopsie (coordonateur, patient, n° de document, juridiction).
+
+Liste des autopsies avec recherche et filtres.
+
+Modification/suppression des autopsies.
+
+3.3 Gestion des blessures
+Ajout, modification et suppression de blessures.
+
+Association de blessures à des autopsies.
+
+Affichage des blessures par autopsie.
+
+3.4 Gestion des catégories de blessures
+Création/modification/suppression des catégories.
+
+Association d’une blessure à une seule catégorie.
+
+3.5 Sécurité
+Protection des routes sensibles (admin).
+
+Validation des données côté client et serveur.
+
+Requêtes sécurisées (prévention SQLi, XSS, etc.).
+
+4. Technologies recommandées
+Frontend :
+HTML/CSS/JS
+
+Framework : React, Vue.js, ou simple Bootstrap (au choix selon le niveau)
+
+Optionnel : TailwindCSS pour le style rapide
+
+Backend :
+Node.js + Express ou PHP/Laravel ou Python/Flask
+
+Authentification avec JWT ou session
+
+Base de données :
+MySQL ou PostgreSQL
+
+ORM recommandé : Sequelize (Node.js), Eloquent (Laravel), ou SQL brut
+
+5. Modèle de données
+Tables principales :
+users (utilisateurs)
+
+autopsies (dossiers)
+
+injuries (blessures)
+
+injuries_categories (catégories)
+
+autopsy_injuries (liaison N:N)
+
+6. Contraintes
+Interface responsive (desktop / mobile).
+
+Interface utilisateur claire et intuitive.
+
+L’application doit pouvoir être installée localement (README fourni).
+
+7. Livrables
+Code source complet (frontend + backend).
+
+Script SQL de la base de données.
+
+Cahier des charges.
+
+Documentation d’installation.
+
+Présentation orale du projet (si demandé).
+
+8. Planning prévisionnel
+Semaine	Tâche	Objectif
+S1	Analyse des besoins + MCD	Structure des données validée
+S2	Création de la BDD + backend de base	API REST fonctionnelle
+S3	Frontend : login + affichage autopsies	Interface utilisateur prête
+S4	Intégration complète + tests	App stable et complète
+S5	Finitions + démo + documentation	Projet prêt à être présenté
