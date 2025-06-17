@@ -1,4 +1,4 @@
-//Cahier des charges 
+Cahier des charges 
 
 
 
@@ -6,7 +6,7 @@ Objectifs
 
 Permettre aux utilisateurs autorisés de se connecter à l’application.
 
-Gérer les dossiers d’autopsies (création, consultation, mise à jour, suppression).
+Gérer les dossiers d’autopsies (création, consultation, (mise à jour et suppression sur demande)).
 
 Associer à chaque autopsie une ou plusieurs blessures.
 
@@ -15,7 +15,9 @@ Classer les blessures par catégorie (fracture, brûlure, lésion interne, etc.)
 Faciliter la recherche d’informations et la consultation de données.
 
 3. Fonctionnalités attendues
+
 3.1 Gestion des utilisateurs
+
 Authentification sécurisée (hash du mot de passe).
 
 Création de comptes administrateurs.
@@ -57,7 +59,7 @@ Framework : React, Vue.js, ou simple Bootstrap (au choix selon le niveau)
 Optionnel : TailwindCSS pour le style rapide
 
 Backend :
-Node.js + Express ou PHP/Laravel ou Python/Flask
+Node.js + Express ou PHP/Laravel 
 
 Authentification avec JWT ou session
 
@@ -65,18 +67,6 @@ Base de données :
 MySQL ou PostgreSQL
 
 ORM recommandé : Sequelize (Node.js), Eloquent (Laravel), ou SQL brut
-
-5. Modèle de données
-Tables principales :
-users (utilisateurs)
-
-autopsies (dossiers)
-
-injuries (blessures)
-
-injuries_categories (catégories)
-
-autopsy_injuries (liaison N:N)
 
 6. Contraintes
 Interface responsive (desktop / mobile).
